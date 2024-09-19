@@ -13,6 +13,6 @@ class c:
             
         
         
-c1=c()
-a=c1.check_raise(-1,1)
-print(a)
+# c1=c()
+# a=c1.check_raise(-1,1)
+# print(a)

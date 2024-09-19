@@ -15,4 +15,7 @@ def test_calculate_area_sq_string():
 def test_calculate_area_sq_list():
     with pytest.raises(TypeError):
         area([1])
+def test_calculate_area_sq_dict():
+    with pytest.raises(TypeError):
+        area({'a':1})
 
